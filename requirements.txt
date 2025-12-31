@@ -1,4 +1,6 @@
 uvicorn
+dotenv
+python-dotenv
 fastapi
 streamlit
 supabase

@@ -42,5 +42,5 @@ async def upload(file:UploadFile=File(...)):
 @app.post("/webhook-call")
 async def webhook_call(data:dict):
     print(data)
-    return {"status":"received"}git 
+    return {"status":"received"}
 
